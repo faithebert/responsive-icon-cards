@@ -36,6 +36,7 @@ ul {
 .card-body h2 {
   font-weight: normal;
   margin-bottom: 0;
+  margin-top: .75em;
 }
 
 .card-body p {

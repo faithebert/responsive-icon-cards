@@ -48,6 +48,23 @@ p {
     font-size: 110%;
     line-height: 1.4;
   }
+  .card li {
+    display: flex;
+    width: 33%;
+  }
+
+  img {
+    display: block;
+  }
+
+  .card-image {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
 
 }
 

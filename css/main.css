@@ -23,7 +23,7 @@ ul {
   margin: 0;
 }
 
-.card-img img  {
+.card-img img {
   max-width: 50px;
 }
 
@@ -58,7 +58,7 @@ ul {
     width: 33%;
   }
 
-  .card-img img  {
+  .card-img img {
     display: block;
   }
 

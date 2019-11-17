@@ -25,6 +25,12 @@ ul {
 
 img {
   max-width: 50px;
+
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 38em) {

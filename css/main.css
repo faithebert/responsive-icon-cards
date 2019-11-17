@@ -83,4 +83,16 @@ p {
     font-size: 130%;
   }
 
+  .card {
+    display: flex;
+  }
+
+  img {
+    margin-right: .75em;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
 }

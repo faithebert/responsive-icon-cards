@@ -58,7 +58,7 @@ p {
   }
 
   .card-image {
-    display: block;
+    text-align: center;
   }
 
   ul {

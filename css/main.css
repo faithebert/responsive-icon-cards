@@ -23,9 +23,8 @@ ul {
   margin: 0;
 }
 
-img {
+.card-image img  {
   max-width: 50px;
-
 }
 
 .card-image {
@@ -33,13 +32,17 @@ img {
   justify-content: center;
 }
 
-h2 {
+.card-body h2 {
   font-weight: normal;
   margin-bottom: 0;
 }
 
-p {
+.card-body p {
   margin-top: 0;
+}
+
+.cards {
+  margin: 0;
 }
 
 @media only screen and (min-width: 38em) {
@@ -48,12 +51,13 @@ p {
     font-size: 110%;
     line-height: 1.4;
   }
+
   .card li {
     display: flex;
     width: 33%;
   }
 
-  img {
+  .card-image img  {
     display: block;
   }
 
@@ -68,7 +72,7 @@ p {
 
 }
 
-  @media only screen and (min-width: 60em) {
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
@@ -87,7 +91,7 @@ p {
     display: flex;
   }
 
-  img {
+  .card-image img {
     margin-right: .75em;
   }
 
